@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <title>j-Guide</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="/index" class="logo">j-Guide</a>
+            <nav>
+                <div class="dropdown">
+                    <button onclick="mf()" class="dropbtn">Menu</button>
+                    <div id="md" class="dropdown-content">
+                        <a href="#about">About</a>
+                        <a href="#to-eat">To-Eat</a>
+                        <a href="#to-do">To-Do</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="slider">
+        <input type="radio" name="slider" checked="checked">
+        <div class="img-box">
+            <img src="assets/images/10.jpg" alt="">
+            <div class="content">
+                <h2>j-Guide</h2>
+                <p>is an independent lifestyle publication that uncovers the latest happenings in Jakarta with a focus on food, fashion, arts and culture.</p>
+                <a href="#about">Read More</a>
+            </div>
+        </div>
+        <input type="radio" name="slider">
+        <div class="img-box">
+            <img src="assets/images/16.jpg" alt="">
+            <div class="content">
+                <h2>Coffee Time</h2>
+                <p>Find great coffee place for your day!</p>
+            </div>
+        </div>
+        <input type="radio" name="slider">
+        <div class="img-box">
+            <img src="assets/images/7.jpg" alt="">
+            <div class="content">
+                <h2>To-Eat</h2>
+                <p>Find delicious cuisines for your day</p>
+                <a href="#to-eat">Check it</a>
+            </div>
+        </div>
+        <input type="radio" name="slider">
+        <div class="img-box">
+            <img src="assets/images/5.jpg" alt="">
+            <div class="content">
+                <h2>To-Do</h2>
+                <p>Find some recomendation activities for today</p>
+                <a href="#to-do">See activities</a>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div id="content">
+            <article id="about" class="card">
+                <h1>About</h1><br>
+                <div class="imgBox"><img src="assets/images/18.jpg"></div>
+                <ul class="thumb">
+                    <li><a href="assets/images/18.jpg" targer="imgBox"><img src="assets/images/18.jpg" width="120px"></a></li>
+                    <li><a href="assets/images/1.jpg" targer="imgBox"><img src="assets/images/1.jpg" width="120px"></a></li>
+                    <li><a href="assets/images/11.jpg" targer="imgBox"><img src="assets/images/11.jpg" width="120px"></a></li>
+                </ul><br>
+                <p>j-Guide merupakan sebuah website daily guide yang simple bagi semua orang yang butuh bantuan dalam 
+                menentukan kegiatan kesehariannya. Website ini dibuat karena terinspirasi dari instagram @manualjakarta yang 
+                menyediakan guide keseharian atau weekend yang keren. </p><br>
+                <p>Pada website ini disediakan berbagai rekomendasi, contohnya seperti pada fitur "to-eat" yang 
+                menampilkan list tempat makan populer di jakarta dan pada fitur "to-do" yang menyediakan rekomendasi kegiatan 
+                beserta tempat yang cocok untuk beraktivitas. </p><br>
+                <q>So check this out and Have a nice day!</q>
+            </article>
+            
+            <article id="to-eat" class="card">
+                <h1>Today to-eat</h1><br><br>
+                <h3>Coffee Time</h3><br>
+                <section>
+                    <h4>Giyanti Coffee Roastery</h4><br>
+                    <img src="assets/images/giyanti.jpg" class="featured-image" alt=""><br>
+                    <p>Popular Dishes: Chicken Pie, Carrot Cake, Coffees, Mocha, Pastries, Brownies</p><br>
+                    <p>People Say This Place Is Known For: Quaint Little Place, Soft Music, Best Food under Best Budget, Decorations, Weekend Brunch, Vibe</p><br>
+                    <p>Jl. Surabaya No. 20, Cikini, Jakarta (+622131923698)</p>
+                </section><br><br><br>
+                <h3>Lunch Time</h3><br>
+                <section>
+                    <h4>Lawless Burgerbar</h4><br>
+                    <img src="assets/images/lawless.jpg" class="featured-image" alt=""><br>
+                    <p>Popular Dishes: Chicken Burger, Beef Patty, Sunny Side, Bacon, Beer, Meat</p><br>
+                    <p>People Say This Place Is Known For: Rock Music, Delicous, Service and Quality of Food, Extensive Bar Menu, Fusion Dishes, Ample Seating Area</p><br>
+                    <p>Jl. Kemang Selatan VIII No. 67H-67I, Kemang, Jakarta (+6281381121602)</p>
+                </section><br><br><br>
+                <h3>Dinner Time</h3><br>
+                <section>
+                    <h4>Bluegrass Bar & Grill</h4><br>
+                    <img src="assets/images/bluegrass.jpg" class="featured-image" alt=""><br>
+                    <p>Popular Dishes: Jumbo Prawn, Classic Burger, Potato Fries, Cocktails, Pork Ribs, Nachos</p><br>
+                    <p>People Say This Place Is Known For: Good Food and Good Ambience, Great Atmosphere, Crowd, Nice Service, Favorite Place, Vibe</p><br>
+                    <p>Bakrie Tower, Lantai Ground, Jl. H.R. Rasuna Said, Kuningan, Jakarta (+622129941660)</p>
+                </section>
+            </article>
+
+            <article id="to-do" class="card">
+                <h1>Today, Saturday 20 February</h1><br><br>
+                <section>
+                    <h3>In the morning: Cycling</h3><br>
+                    <img src="assets/images/5.jpg" class="featured-image" alt="">
+                    <p>Saturday morning is a great time to cycling with ur family, friends, or maybe your crush(?). You can do this at Gelora Bung Karno area at Senayan.</p><br><br>
+                </section>
+                <section>
+                    <h3>In the afternoon: Semesta & Angan : Pilihan karya koleksi museum MACAN</h3><br>
+                    <img src="assets/images/museummacan.jpg" class="featured-image" alt="">
+                    <p>Join us to explore two new exhibitions at Museum MACAN: ‘Stories Across Rising Lands’ and ‘Semesta dan Angan / Multiverses and Dreams: Selected Works from the Collection of Museum MACAN’ as well as the existing exhibition on view ‘Melati Suryodarmo: Why Let the Chicken Run?’</p><br>
+                    <p>Saturday 6 February 2021 at 11.00 – 12.00 WIB (GMT+7)</p><br>
+                    <p>The curatorial tour for the exhibitions will be led by Asep Topan & Jeong-ok Jeon, Asri Winata, and Ady Nugeraha. This program will take place on Zoom.</p><br><br>
+                </section>
+                <section>
+                    <h3>In the evening: Kinosaurus Virtual Cinema : Humans : A Collection Of Short Stories</h3><br>
+                    <img src="assets/images/kinosaurus.jpg" class="featured-image" alt="">
+                    <p>Kinosaurus Virtual Cinema ada untuk memungkinkan kami menjaga semangat para pecinta sinema dan tetap membuka akses menonton. Perubahan yang terjadi dalam kondisi pandemi ini membuat kami terus berpikir bagaimana cara agar semangat ini tidak kendur atau hilang dan format daring adalah salah satu jalan keluarnya. Sekarang, untuk menonton film hasil kuratorial Kinosaurus tidak hanya bisa dilakukan di ruang fisik kami di Kemang, Jakarta, tapi kalian yang berada jauh pun bisa ikut serta dari tempat masing-masing. Kinosaurus Virtual Cinema juga adalah upaya untuk mendukung kelangsungan karya pembuat film dan budaya sinema lewat penguatan ekonomi bersama.</p><br>
+                    <p>dia.lo.gue Jl. Kemang Selatan 99a, Jakarta, 12730</p>
+                </section>
+            </article> 
+        </div>
+        
+        <aside>
+            <article class="profile card">
+                <header>
+                    <h1>Febio Irsadad</h1><br>
+                    <p>Computer Science Student</p><br>
+                    <figure>
+                        <img src="assets/images/profilepic.jpg">
+                    </figure>
+                </header><br><br>
+                <section>
+                    <h3>Profile:</h3><br>
+                    <table>
+                        <tr>
+                            <th>DOB:</th>
+                            <td>23 February 2000</td>
+                        </tr>
+                        <tr>
+                            <th>Phone:</th>
+                            <td>085156897870</td>
+                        </tr>
+                        <tr>
+                            <th>Email:</th>
+                            <td>febio.irsadad@binus.ac.id</td>
+                        </tr>
+                        <tr>
+                            <th>Gender:</th>
+                            <td>Male</td>
+                        </tr>
+                        <tr>
+                            <th>School:</th>
+                            <td>Binus University</td>
+                        </tr>
+                        <tr>
+                            <th>Address:</th>
+                            <td>Cijantung, Jakarta Timur</td>
+                        </tr>
+                    </table>
+                </section>
+            </article>
+        </aside>
+    </main>
+    <footer>
+        <p>j-Guide &#169; 2021, Febio Irsadad</p>
+    </footer>
+    <script src="assets/js/dropdown.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.thumb a').click(function(e){
+                e.preventDefault();
+                $('.imgBox img').attr("src", $(this).attr("href"));
+            })
+        })
+    </script>
+</body>
+</html>
